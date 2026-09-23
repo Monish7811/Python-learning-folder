@@ -1,0 +1,36 @@
+Python Collections (Arrays):
+There are four collection data types in the Python programming language:
+⚫ List is a collection which is ordered and changeable. Allows duplicate
+members.
+⚫ Tuple is a collection which is ordered and unchangeable. Allows duplicate
+members.
+⚫ Set is a collection which is unordered, unchangeable*, and unindexed. No
+duplicate members.
+⚫ Dictionary is a collection which is ordered** and changeable. No
+duplicate members.
+
+1. List[]:
+*Allows Duplicate
+*Any type of data can be stored
+*We can modify the list item. We can add or remove
+*insert(), append(),extend(),pop()
+
+2.Tuple ():
+*Allows Duplicate
+*Any type of data can be stored
+*We cannot modify the tuple item. We cannot add or remove.
+*We can modify it by changing it as a list in another variable(casting)
+
+3.Set {}:
+*Do not allow Duplicate, Duplicate values will be removed.
+*Any type of data can be stored
+*We cannot modify the set item but we can add or remove items.
+*Sets are unordered.
+*add(),update(), remove(),pop()
+
+4. Dictionary {}:
+*Do not allow Duplicate, Duplicate value will overwrite existing value
+*Any type of data can be stored
+*Key: value pair {"name"="EMC"}
+*get(),keys(), values(), items(), update ({"year": 2020}), thisdict["color"] = "red",
+thisdict.pop("mode1"), del, clear()
