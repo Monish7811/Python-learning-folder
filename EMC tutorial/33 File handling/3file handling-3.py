@@ -1,0 +1,7 @@
+f = open("fruits.txt", "a")
+f.write("Hi\n")
+f.write("Bye\n")
+f.close()
+f = open("fruits.txt", "r+")
+content = f.read()
+print(content)
